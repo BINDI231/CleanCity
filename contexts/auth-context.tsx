@@ -3,6 +3,7 @@
 import type React from "react";
 import { createContext, useContext, useState, useEffect } from "react";
 import { apiService } from "@/lib/api";
+import { useRouter } from "next/navigation";
 
 interface User {
   id: string;
